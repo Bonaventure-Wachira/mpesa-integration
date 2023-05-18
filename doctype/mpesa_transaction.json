@@ -1,0 +1,26 @@
+{
+    "doctype": "DocType",
+    "name": "Mpesa Transaction",
+    "fields": [
+        {
+            "fieldname": "transaction_id",
+            "fieldtype": "Data",
+            "label": "Transaction ID"
+        },
+        {
+            "fieldname": "amount",
+            "fieldtype": "Currency",
+            "label": "Amount"
+        },
+        {
+            "fieldname": "transaction_date",
+            "fieldtype": "Datetime",
+            "label": "Transaction Date/Time"
+        },
+        {
+            "fieldname": "phone_number",
+            "fieldtype": "Data",
+            "label": "Customer Phone Number"
+        }
+    ]
+}
