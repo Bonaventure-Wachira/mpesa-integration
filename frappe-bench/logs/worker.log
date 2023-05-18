@@ -1,0 +1,8 @@
+2023-05-18 17:56:07,822 Worker rq:worker:3c37a307be2841edb5cc61d0d9e1f036: started, version 1.11.1
+2023-05-18 17:56:07,822 Subscribing to channel rq:pubsub:3c37a307be2841edb5cc61d0d9e1f036
+2023-05-18 17:56:07,823 *** Listening on workspaces-mpesa-integration-frappe-bench:short, workspaces-mpesa-integration-frappe-bench:default, workspaces-mpesa-integration-frappe-bench:long...
+2023-05-18 17:56:07,824 Cleaning registries for queue: workspaces-mpesa-integration-frappe-bench:short
+2023-05-18 17:56:07,825 Cleaning registries for queue: workspaces-mpesa-integration-frappe-bench:default
+2023-05-18 17:56:07,826 Cleaning registries for queue: workspaces-mpesa-integration-frappe-bench:long
+2023-05-18 18:19:09,319 Warm shut down requested
+2023-05-18 18:19:09,343 Unsubscribing from channel rq:pubsub:3c37a307be2841edb5cc61d0d9e1f036

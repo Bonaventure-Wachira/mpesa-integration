@@ -1,0 +1,34 @@
+2023-05-18 17:38:18,501 DEBUG cd frappe-bench && python3 -m venv env
+2023-05-18 17:38:24,372 DEBUG cd frappe-bench && /workspaces/mpesa-integration/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-05-18 17:38:27,552 DEBUG cd frappe-bench && /workspaces/mpesa-integration/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-05-18 17:38:28,685 LOG Getting frappe
+2023-05-18 17:38:28,686 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2023-05-18 17:38:33,493 LOG Installing frappe
+2023-05-18 17:38:33,493 DEBUG cd /workspaces/mpesa-integration/frappe-bench && /workspaces/mpesa-integration/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspaces/mpesa-integration/frappe-bench/apps/frappe 
+2023-05-18 17:39:20,258 DEBUG cd /workspaces/mpesa-integration/frappe-bench/apps/frappe && yarn install
+2023-05-18 17:39:48,041 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-05-18 17:39:48,042 DEBUG cd frappe-bench && bench build
+2023-05-18 17:39:48,660 INFO /home/codespace/.python/current/bin/bench build
+2023-05-18 17:40:16,733 LOG setting up backups
+2023-05-18 17:40:16,811 LOG backups were set up
+2023-05-18 17:40:16,812 INFO Bench frappe-bench initialized
+2023-05-18 17:56:01,142 INFO /home/codespace/.python/current/bin/bench start
+2023-05-18 17:56:03,800 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2023-05-18 17:56:03,957 INFO /home/codespace/.python/current/bin/bench schedule
+2023-05-18 17:56:04,013 INFO /home/codespace/.python/current/bin/bench watch
+2023-05-18 17:56:04,022 INFO /home/codespace/.python/current/bin/bench worker
+2023-05-18 18:06:32,162 INFO /home/codespace/.python/current/bin/bench new-app mpesa-integration
+2023-05-18 18:06:32,167 LOG creating new app mpesa_integration
+2023-05-18 18:17:22,259 INFO /home/codespace/.python/current/bin/bench new-app mpesa-integration
+2023-05-18 18:17:22,263 LOG creating new app mpesa_integration
+2023-05-18 18:18:54,400 LOG Installing mpesa_integration
+2023-05-18 18:18:54,402 DEBUG cd /workspaces/mpesa-integration/frappe-bench && /workspaces/mpesa-integration/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspaces/mpesa-integration/frappe-bench/apps/mpesa_integration 
+2023-05-18 18:18:59,896 DEBUG bench build --app mpesa_integration
+2023-05-18 18:19:00,016 INFO /home/codespace/.python/current/bin/bench build --app mpesa_integration
+2023-05-18 18:19:03,741 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-05-18 18:38:32,600 INFO /home/codespace/.python/current/bin/bench new-site mpesa.test
+2023-05-18 18:48:06,128 INFO /home/codespace/.python/current/bin/bench new-site mpesa.test
+2023-05-18 19:56:25,954 INFO /home/codespace/.python/current/bin/bench drop-site mpesa.test
+2023-05-18 19:57:19,918 INFO /home/codespace/.python/current/bin/bench drop-site mpesa.test --force
+2023-05-18 20:06:20,368 INFO /home/codespace/.python/current/bin/bench drop-site mpesa.test
+2023-05-18 20:07:14,265 INFO /home/codespace/.python/current/bin/bench drop-site mpesa.test --force
